@@ -1,0 +1,356 @@
+body {
+    font-family: 'Lato light', sans-serif;
+}
+.mainWidth {
+    width: 65%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("../images/header/headerBG.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 750px;
+}
+
+.jumbotron {
+    padding-top: 90px;
+    text-align: center;
+    color: white;
+}
+.logoBig {
+    margin-bottom: 50px;
+}
+.headline h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.headline p {
+    margin-bottom: 60px;
+}
+.imagNav {
+    height: auto;
+}
+.imagNav img{
+    display: inline-block;
+    height: 120px;
+    padding: 5px;
+}
+.navMiddle {
+    width: 250px;
+    margin: 0 auto;
+}
+.navLeft {
+    float: left;
+}
+.navRight {
+    float: right;
+}
+.navScroll {
+    width: 60px;
+    margin: 0 auto;
+}
+.navScroll img{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 60px;
+}
+.imagNav img:hover {
+    opacity: 0.5;
+}
+.navScroll img:hover {
+    opacity: 0.5;
+}
+/*======== END MAIN SITE ==========================*/
+.navigation {
+    height: 20px;
+    margin: 35px 0;
+}
+.navList li {
+    display: inline-block;
+    margin-top: 8px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.navList a:link {
+    color: #000;
+    text-decoration: none;
+}
+.navList a:hover {
+    color: purple;
+    font-weight: bold;
+}
+.navList a:visited {
+    color: #000;
+}
+.navigation ul {
+    float: right;
+}
+.navigation img {
+    height: 30px;
+    float: left;
+}
+/*===================END NAVIGATION=================*/
+.feature {
+    background-color: #eeeeee;
+    height: 500px;
+}
+.feature img {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 280px;
+    margin-top: 80px;
+}
+.heart {
+    float: left;
+    margin-right: 50px;
+}
+.coffee {
+    float: right;
+    padding-left: 50px;
+}
+.mobile {
+    float: right;
+}
+/*=====================END FEATURES===================*/
+.about {
+    height: 750px;
+    color: darkgrey;
+}
+.heading {
+    width: 180px;
+    margin: 40px auto;
+}
+.mockup img {
+    box-sizing: border-box;
+    height: 350px;
+    float: left;
+    margin-right: 30px;
+}
+.textAbout p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 90px;
+}
+.textAbout button {
+    background-color: #9f449b;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    color: white;
+}
+/*=============================END ABOUT========================*/
+.quote {
+    background-image: url("../images/serviceBase.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 465px;
+}
+.imgMiddle img {
+    width: 150px;
+    margin: 9% 0 7% 42%;
+}
+.quote p {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+/*==============================END QUOTE=========================*/
+.ourTeam {
+    height: 620px;
+}
+.arrows {
+    width: 110px;
+    margin: 0 auto;
+}
+.arrows img {
+    height: 50px;
+    display: inline;
+}
+.person {
+    margin-top: 60px;
+    box-sizing: border-box;
+    width: 33%;
+    height: 300px;
+    text-align: center;
+    line-height: 24px;
+    color: dimgrey;
+}
+.left {
+    float: left;
+}
+.middle {
+    float: left;
+}
+.right {
+    float: right;
+}
+.person img {
+    height: 150px;
+    margin-bottom: 40px;
+}
+.person h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.person p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.social img {
+    height: 30px;
+    padding: 5px;
+    display: inline;
+}
+.social {
+    width: 100px;
+    margin: 0 auto;
+}
+/*================================END OUR TEAM====================*/
+.skills {
+    height: 450px;
+}
+.grey {
+    height: 20px;
+    width: 400px;
+    background-image: url("../images/skills/Rectangle%2011.png");
+    margin-bottom: 25px;
+}
+.purple {
+    height: 20px;
+    width: 200px;
+    background-color: #9f449b;
+}
+.skills h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.skillRight {
+    float: right;
+}
+.skillLeft {
+    float: left;
+}
+
+/*=======================END SKILLS==============================*/
+.categories {
+    width: 240px;
+    margin: 0 auto;
+}
+.categories button {
+    height: 28px;
+    background-color: white;
+    color: darkgray;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 1px solid darkgrey;
+    margin: 0 5px 50px 5px;
+}
+.categories button:hover {
+    color: white;
+    background-color: #9f449b;
+}
+.project {
+    margin: 5px 5px 30px 0;
+    float: left;
+    text-align: center;
+    color: dimgrey;
+}
+.project h4 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.project p {
+    font-size: 12px;
+    margin: 10px;
+}
+.gallery img {
+    box-sizing: border-box;
+    height: 280px;
+}
+.gallery .hover {
+    display: none;
+}
+.gallery .hover:hover {
+    display: block;
+}
+/*.gallery img:hover {*/
+    /*box-sizing: border-box;*/
+    /*background-color: dimgrey;*/
+    /*opacity: 0.5;*/
+/*}*/
+.watchMore {
+    width: 180px;
+    margin: 20px auto;
+}
+.watchMore button {
+    background-color: #9f449b;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 180px;
+    color: white;
+}
+
+/*=========================END PORTFOLIO===========================*/
+::-webkit-input-placeholder {
+    color: darkgray;
+    font-size: 14px;
+    font-family: 'Lato light', sans-serif;
+
+}
+input[type=imie], input[type=email] {
+    border: 1px solid darkgray;
+    width: 450px;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+input[type=textarea] {
+    border: 1px solid darkgray;
+    width: 450px;
+    height: 220px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.send button {
+    background-color: #9f449b;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 180px;
+    color: white;
+}
+.formularz {
+    float: left;
+    margin-right: 50px;
+}
+.rightBox {
+    width: 320px;
+    float: left;
+}
+.rightBox p {
+    line-height: 30px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.rightBox span {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+.rightBox img{
+    display: inline-block;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+/*=====================END CONTACT=========================*/
+footer {
+    height: 60px;
+}

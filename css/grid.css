@@ -1,0 +1,42 @@
+.columns-1, .columns-2, .columns-3,.columns-4, .columns-5, .columns-6, .columns-7, .columns-8, .columns-9, .columns-10, .columns-11, .columns-12  {
+    display: block;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.columns-1 {
+    width: 8.33%;}
+
+.columns-2 {
+    width: 16.66%;}
+
+.columns-3 {
+    width: 25%;}
+
+.columns-4 {
+    width: 33.33%;}
+
+.columns-5 {
+    width: 41.66%;}
+
+.columns-6 {
+    width: 50%;}
+
+.columns-7 {
+    width: 58.33%;}
+
+.columns-8 {
+    width: 66.66%;}
+
+.columns-9 {
+    width: 75%;}
+
+.columns-10 {
+    width: 83.33%;}
+
+.columns-11 {
+    width: 91.66%;}
+
+.columns-12 {
+    width: 100%;}
