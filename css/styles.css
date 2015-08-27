@@ -271,18 +271,19 @@ header {
 .gallery img {
     box-sizing: border-box;
     height: 280px;
+    position: relative;
+    z-index: 1;
 }
 .gallery .hover {
     display: none;
+    position: absolute;
+    z-index: 2;
 }
-.gallery .hover:hover {
-    display: block;
+.project .popup {
+    display: none;
+    height: 300px;
+    position: absolute;
 }
-/*.gallery img:hover {*/
-    /*box-sizing: border-box;*/
-    /*background-color: dimgrey;*/
-    /*opacity: 0.5;*/
-/*}*/
 .watchMore {
     width: 180px;
     margin: 20px auto;
