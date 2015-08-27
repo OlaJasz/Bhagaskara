@@ -9,12 +9,13 @@ body {
 header {
     background-image: url("../images/header/headerBG.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 750px;
+    background-size: cover;
+    /* height: 750px; */
+    padding: 5% 0 10%;
 }
 
 .jumbotron {
-    padding-top: 90px;
+    /*padding-top: 90px;*/
     text-align: center;
     color: white;
 }
@@ -28,13 +29,31 @@ header {
 .headline p {
     margin-bottom: 60px;
 }
-.imagNav {
-    height: auto;
+
+.moveDown {
+    position: relative;
+    top: 90px;
 }
-.imagNav img{
+.moveUp {
+    position: relative;
+    top: -120px;
+}
+.imagNav {
+    position: relative;
+    width:100%;
+    margin:0;
+}
+
+
+.imagNav li {
     display: inline-block;
-    height: 120px;
+    width: 15%;
+}
+
+.imagNav img{
+    /*height: 120px;*/
     padding: 5px;
+    width:100%;
 }
 .navMiddle {
     width: 250px;
@@ -93,24 +112,34 @@ header {
 /*===================END NAVIGATION=================*/
 .feature {
     background-color: #eeeeee;
-    height: 500px;
+    padding: 5% 0;
+}
+.featureList li {
+    width: 22%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3%;
+}
+.featureList li:last-child {
+    margin-right: 0;
 }
 .feature img {
     display: inline-block;
     box-sizing: border-box;
-    height: 280px;
+    /*height: 280px;*/
+    width:100%;
     margin-top: 80px;
 }
 .heart {
-    float: left;
+    /*float: left;*/
     margin-right: 50px;
 }
-.coffee {
-    float: right;
-    padding-left: 50px;
-}
+/*.coffee {*/
+    /*float: right;*/
+    /*padding-left: 50px;*/
+/*}*/
 .mobile {
-    float: right;
+    /*float: right;*/
 }
 /*=====================END FEATURES===================*/
 .about {
