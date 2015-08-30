@@ -9,7 +9,7 @@ body {
 header {
     background-image: url("../images/header/headerBG.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 750px;
 }
 
@@ -18,6 +18,7 @@ header {
     text-align: center;
     color: white;
 }
+
 .logoBig {
     margin-bottom: 50px;
 }
@@ -28,24 +29,38 @@ header {
 .headline p {
     margin-bottom: 60px;
 }
+.moveDown {
+    position: relative;
+    top: 90px;
+}
+.moveUp {
+    position: relative;
+    top:-120px;
+}
 .imagNav {
-    height: auto;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+.imagNav li {
+    display: inline-block;
+    width: 15%;
 }
 .imagNav img{
-    display: inline-block;
+    /*display: inline-block;*/
     height: 120px;
     padding: 5px;
 }
-.navMiddle {
-    width: 250px;
-    margin: 0 auto;
-}
-.navLeft {
-    float: left;
-}
-.navRight {
-    float: right;
-}
+/*.navMiddle {*/
+    /*width: 250px;*/
+    /*margin: 0 auto;*/
+/*}*/
+/*.navLeft {*/
+    /*float: left;*/
+/*}*/
+/*.navRight {*/
+    /*float: right;*/
+/*}*/
 .navScroll {
     width: 60px;
     margin: 0 auto;
@@ -93,25 +108,20 @@ header {
 /*===================END NAVIGATION=================*/
 .feature {
     background-color: #eeeeee;
-    height: 500px;
+    padding: 5% 0;
 }
 .feature img {
-    display: inline-block;
-    box-sizing: border-box;
-    height: 280px;
-    margin-top: 80px;
+    height: 250px;
+    padding: 25px;
 }
-.heart {
+.goLeft {
     float: left;
-    margin-right: 50px;
 }
-.coffee {
-    float: right;
-    padding-left: 50px;
-}
-.mobile {
+.goRight {
     float: right;
 }
+
+
 /*=====================END FEATURES===================*/
 .about {
     height: 750px;
@@ -141,16 +151,17 @@ header {
     width: 150px;
     color: white;
 }
+
 /*=============================END ABOUT========================*/
 .quote {
     background-image: url("../images/serviceBase.jpg");
-    background-size: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     height: 465px;
 }
 .imgMiddle img {
     width: 150px;
-    margin: 9% 0 7% 42%;
+    margin: 9% 0 7% 40%;
 }
 .quote p {
     text-align: center;
@@ -213,13 +224,13 @@ header {
     height: 450px;
 }
 .grey {
-    height: 20px;
-    width: 400px;
+    height: 19px;
+    width: 370px;
     background-image: url("../images/skills/Rectangle%2011.png");
     margin-bottom: 25px;
 }
 .purple {
-    height: 20px;
+    height: 19px;
     width: 200px;
     background-color: #9f449b;
 }
@@ -332,7 +343,7 @@ input[type=textarea] {
     margin-right: 50px;
 }
 .rightBox {
-    width: 320px;
+    width: 40%;
     float: left;
 }
 .rightBox p {

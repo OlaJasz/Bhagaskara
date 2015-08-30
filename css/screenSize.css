@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1340px) {
+    .mainWidth {
+        width: 70%;
+    }
+    .feature img {
+        padding: 15px;
+        height: 220px;
+    }
+    .textAbout p {
+        line-height: 18px;
+        margin-bottom: 80px;
+    }
+    .mockup img {
+        height: 300px;
+    }
+
+    .rightBox {
+        width: 30%;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .mainWidth {
+        width: 80%;
+    }
+    .about {
+        height: 700px;
+    }
+    .textAbout p {
+        line-height: 16px;
+    }
+    .skillRight, .skilLeft {
+        float: none;
+    }
+    .skills {
+        height: 500px;
+        margin: 0 auto;
+    }
+    input[type=imie], input[type=email], input[type=textarea] {
+        width: 350px;
+    }
+    .rightBox img{
+        height: 40px;
+    }
+
+}
+@media only screen and (max-width: 900px) {
+    .mainWidth {
+        width: 90%;
+    }
+
+    .rightBox img {
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .imagNav img{
+        height: 100px;
+    }
+    .navigation {
+        font-size: 12px;
+    }
+    .about {
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .goRight {
+        float: left;
+        margin: 0 auto;
+    }
+    .mockup img {
+         height: 280px;
+    }
+    .textAbout p {
+        margin-bottom: 0;
+        line-height: 12px;
+    }
+    .rightBox p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation img {
+        display: none;
+    }
+    .navigation ul {
+        float: none;
+    }
+    .rightBox {
+
+    }
+}

@@ -6,12 +6,12 @@
     <title>Bhagaskara</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/screenSize.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/funkcje.js"></script>
+
 
     <header>
         <div class="jumbotron">
@@ -24,23 +24,28 @@
                     fermentum fringilla.</p>
             </div>
         </div>
-        <div class="mainWidth">
+        <div class="mainWidth moveDown">
 
-                <div class="imagNav">
-                    <div class="navMiddle">
-                        <a href="#Service"><img src="images/header/service.png"></a>
-                        <a href="#Portfolio"><img src="images/header/portfolio.png"></a>
-                    </div>
-                    <div class="navLeft">
-                        <a href="#About"><img src="images/header/about.png"></a>
-                        <a href="#Team"><img src="images/header/team.png"></a>
-                    </div>
-
-                    <div class="navRight">
-                        <a href="#Blog"><img src="images/header/blog.png"></a>
-                        <a href="#Contact"><img src="images/header/contact.png"></a>
-                    </div>
-                </div>
+            <ul class="imagNav">
+                <li>
+                    <a href="#About"><img src="images/header/about.png"></a>
+                </li>
+                <li>
+                    <a href="#Team"><img src="images/header/team.png"></a>
+                </li>
+                <li class="moveUp">
+                    <a href="#Service" ><img src="images/header/service.png"></a>
+                </li>
+                <li class="moveUp">
+                    <a href="#Portfolio"><img src="images/header/portfolio.png"></a>
+                </li>
+                <li>
+                    <a href="#Blog"><img src="images/header/blog.png"></a>
+                </li>
+                <li>
+                    <a href="#Contact"><img src="images/header/contact.png"></a>
+                </li>
+            </ul>
 
         <div style="clear: both;"></div>
 
@@ -70,10 +75,10 @@
     <div class="feature" id="feature">
         <div class="mainWidth">
 
-            <img class="dimond" src="images/feature/dimond.png">
-            <img class="heart" src="images/feature/heart.png">
-            <img class="coffee" src="images/feature/coffee.png">
-            <img class="mobile" src="images/feature/mobile.png">
+            <div class="goLeft"><img class="dimond" src="images/feature/dimond.png">
+            <img class="heart" src="images/feature/heart.png"></div>
+            <div class="goRight"><img class="coffee" src="images/feature/coffee.png">
+            <img class="mobile" src="images/feature/mobile.png"></div>
 
         </div>
         <div style="clear: both;"></div>
@@ -153,15 +158,19 @@
                 <img class="heading" src="images/skills/ourSkills.png">
             </div>
 
+            <div class="boxes">
+
             <div class="skillRight">
                 <div class="html">
                     <h3>Web Design</h3>
+                    <span class="percentage1"> 59&#37</span>
                     <div class="grey">
                         <div class="purple"></div>
                     </div>
                 </div>
                 <div class="graphic">
                     <h3>Graphic Design</h3>
+                    <span class="percentage2"> 70&#37</span>
                     <div class="grey">
                         <div class="purple"></div>
                     </div>
@@ -170,16 +179,19 @@
             <div class="skillLeft">
                 <div class="webDesign">
                     <h3>Html / Css</h3>
+                    <span class="percentage3"> 90&#37</span>
                     <div class="grey">
                         <div class="purple"></div>
                     </div>
                 </div>
                 <div class="ui">
                     <h3>Ui / Ux</h3>
+                    <span class="percentage4"> 80&#37</span>
                     <div class="grey">
                         <div class="purple"></div>
                     </div>
                 </div>
+            </div>
             </div>
 
         </div>
@@ -305,6 +317,8 @@
             <img class="heading" src="images/logoSmall.png">
         </div>
     </footer>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/funkcje.js"></script>
 
 
 </body>
