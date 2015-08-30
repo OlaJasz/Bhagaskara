@@ -10,16 +10,11 @@ header {
     background-image: url("../images/header/headerBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
     height: 750px;
-=======
-    /* height: 750px; */
-    padding: 5% 0 10%;
->>>>>>> origin/master
 }
 
 .jumbotron {
-    /*padding-top: 90px;*/
+    padding-top: 90px;
     text-align: center;
     color: white;
 }
@@ -34,17 +29,12 @@ header {
 .headline p {
     margin-bottom: 60px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 .moveDown {
     position: relative;
     top: 90px;
 }
 .moveUp {
     position: relative;
-<<<<<<< HEAD
     top:-120px;
 }
 .imagNav {
@@ -52,32 +42,14 @@ header {
     width: 100%;
     margin: 0;
 }
-=======
-    top: -120px;
-}
-.imagNav {
-    position: relative;
-    width:100%;
-    margin:0;
-}
-
-
->>>>>>> origin/master
 .imagNav li {
     display: inline-block;
     width: 15%;
 }
-<<<<<<< HEAD
 .imagNav img{
     /*display: inline-block;*/
     height: 120px;
-=======
-
-.imagNav img{
-    /*height: 120px;*/
->>>>>>> origin/master
     padding: 5px;
-    width:100%;
 }
 /*.navMiddle {*/
     /*width: 250px;*/
@@ -137,7 +109,6 @@ header {
 .feature {
     background-color: #eeeeee;
     padding: 5% 0;
-<<<<<<< HEAD
 }
 .feature img {
     height: 250px;
@@ -148,35 +119,6 @@ header {
 }
 .goRight {
     float: right;
-=======
-}
-.featureList li {
-    width: 22%;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 3%;
-}
-.featureList li:last-child {
-    margin-right: 0;
-}
-.feature img {
-    display: inline-block;
-    box-sizing: border-box;
-    /*height: 280px;*/
-    width:100%;
-    margin-top: 80px;
-}
-.heart {
-    /*float: left;*/
-    margin-right: 50px;
-}
-/*.coffee {*/
-    /*float: right;*/
-    /*padding-left: 50px;*/
-/*}*/
-.mobile {
-    /*float: right;*/
->>>>>>> origin/master
 }
 
 
