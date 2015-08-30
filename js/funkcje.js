@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     function scrollViewport() {
         $(".imagNav a, .navList a").on('click', function(){
             var href = $(this).attr('href');
@@ -18,6 +22,7 @@ $(document).ready(function(){
             $(this).hide();
         });
     }
+<<<<<<< HEAD
     scrollViewport();
     showHoverOnGalleryImage();
 });
@@ -52,3 +57,20 @@ $(document).ready(function(){
     //}
 
 
+=======
+
+
+    $('.hover').find('img').on('click', function () {
+       console.log('klik');
+    });
+
+    //$('.hover').find('img').on('click', function(){
+    //    console.log('klik');
+    //    //$(this).addClass('bigPicture');
+    //});
+
+
+    scrollViewport();
+    showHoverOnGalleryImage();
+});
+>>>>>>> origin/master
